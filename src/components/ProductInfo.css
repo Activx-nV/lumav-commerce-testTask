@@ -66,3 +66,22 @@ input {
   transition: all 0.2s ease-in-out;
   background-color: #99b48d;
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+@media (max-width: 586px) {
+  .products-cart-counter {
+    position: static;
+  }
+  .products-list {
+    margin-left: 15px;
+  }
+}
